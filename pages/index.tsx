@@ -20,7 +20,7 @@ const Home= ({endpoint}:Data) => {
         exit='exit'
         className='flex flex-col px-6 pt-1 flex-grow'>
       <Head>
-        <title>Create Next App</title>
+        <title>简介</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <p className='my-3 font-medium'>

@@ -21,6 +21,7 @@ const Sidebar = () => {
                 width={300}
                 height={100}
                 className='mx-auto rounded-full'
+                loading="lazy"
             />
             <h3 className='my-4 text-3xl font-medium tracking-wider'>
                 包启明

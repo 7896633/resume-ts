@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data";
 import { Category } from "../type";
 import {motion} from 'framer-motion'
 import {stagger, fadeInUp, routeAnimation} from "../animations";
+import Head from 'next/head'
 
 const Projects = () => {
     const [projects, setProjects] = useState(projectsData);
@@ -36,6 +37,10 @@ const Projects = () => {
             variants={routeAnimation}
             className="px-5 py-2 overflow-y-scroll scrollbar-thin scrollbar-thumb-sky-300  scrollbar-track-sky-100" style={{ height: "65vh" }
         }>
+            <Head>
+                <title>项目</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <ProjectsNavbar
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}
