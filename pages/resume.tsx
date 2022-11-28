@@ -5,8 +5,9 @@ import {motion} from 'framer-motion'
 import {fadeInUp, routeAnimation} from '../animations'
 import Head from "next/head";
 
-const resume = () => {
 
+// 简历页面
+const resume = () => {
     return (
         <motion.div
             animate='animate'
@@ -37,11 +38,13 @@ const resume = () => {
                     </div>
                 </motion.div>
             </div>
+            {/*熟练度显示*/}
             <div className='grid gap-6 md:grid-cols-2'>
                 <div>
                     <h5 className='my-3 text-2xl font-bold'>
                         语言和框架
                     </h5>
+                    {/*转为%显示*/}
                     <div className='my-2'>
                         {
                             languages.map(language=><Bar data={language} key={language.name}/>)

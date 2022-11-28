@@ -7,6 +7,7 @@ import {motion} from 'framer-motion'
 import {stagger, fadeInUp, routeAnimation} from "../animations";
 import Head from 'next/head'
 
+// 项目页面
 const Projects = () => {
     const [projects, setProjects] = useState(projectsData);
     const [active, setActive] = useState("全部");
@@ -41,6 +42,8 @@ const Projects = () => {
                 <title>项目</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            {/*组名*/}
             <ProjectsNavbar
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}
@@ -52,6 +55,7 @@ const Projects = () => {
                 initial='initial'
                 className="relative grid grid-cols-12 gap-4 my-3"
             >
+                {/*内容分组*/}
                 {projects.map((project) => (
                     <motion.div
                         variants={fadeInUp}

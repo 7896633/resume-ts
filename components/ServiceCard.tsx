@@ -1,9 +1,9 @@
 import React, {FunctionComponent} from 'react';
 import {Service} from '../type'
 
+
 const ServiceCard:FunctionComponent<{service:Service}> = ({service:{title,Icon,about}}) => {
     const createMarkup=()=>{
-        // 让页面的标签转为可用
         return{
             __html:about
         }

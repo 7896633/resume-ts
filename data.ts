@@ -104,30 +104,29 @@ export const tools: Skill[] = [
 export const projects: Project[] = [
     {
         id:1,
-        name: "COVID Tracker",
-        description:
-            "This app shows a statistical view about corona virus over the world",
-        image_path: "/images/covid.jpg",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+        name: "评论",
+        description: "实现评论功能:删除和点赞功能",
+        image_path: "/images/Snipaste_2022-11-28_08-01-04.png",
+        deployed_url: "https://comment-7896633.vercel.app/",
+        github_url: "https://github.com/7896633/comment",
         category: ["react"],
-        key_techs: ["React", "Chart.js", "Material UI"],
+        key_techs: ["firebase", "Next js", "Next auth"],
     },
     {
         id:2,
-        name: "Algorithm Visualizer",
-        image_path: "/images/algoVisual.png",
-        deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+        name: "文章发布",
+        image_path: "/images/Snipaste_2022-11-28_08-10-08.png",
+        deployed_url: "https://issue-7896633.vercel.app/",
+        github_url: "https://github.com/7896633/issue",
         category: ["react"],
         description:
-            "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
+            "实现文章发布功能:发布和查看功能",
         key_techs: ["React", "firebase", "Framer Motion"],
     },
 
     {
         id:3,
-        name: "Dev Talks",
+        name: "音乐播放",
         image_path: "/images/dev.jpg",
         deployed_url: "https://dev-talks.herokuapp.com/",
         github_url: "https://github.com/Dey-Sumit/Dev-talks",

@@ -6,7 +6,6 @@ import {motion} from 'framer-motion'
 import Image from "next/image";
 import {fadeInUp, stagger} from "../animations";
 
-// id是数组序列
 const ProjectCard: FunctionComponent<{
     project: Project;
     showDetail:null|number,
@@ -29,11 +28,11 @@ const ProjectCard: FunctionComponent<{
 
     return (
         <div>
+            {/*点击显示对应id*/}
             <Image
                 src={image_path}
                 alt={name}
                 className="cursor-pointer"
-                // 点击后变为对应id
                 onClick={() => setShowDetail(id)}
                 layout="responsive"
                 height="150"
@@ -42,6 +41,7 @@ const ProjectCard: FunctionComponent<{
 
             <p className="my-2 text-center">{name}</p>
 
+            {/*判断点击后显示扩展内容*/}
             {showDetail === id && (
                 <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 rounded-lg text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
                     <motion.div
@@ -99,8 +99,8 @@ const ProjectCard: FunctionComponent<{
                         </motion.div>
                     </motion.div>
 
+                    {/*点击变为null，id变无则不显示*/}
                     <button
-                        // 点击后变为空id
                         onClick={() => setShowDetail(null)}
                         className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
                     >
