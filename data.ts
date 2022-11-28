@@ -18,7 +18,7 @@ export const services: Service[] = [
         Icon: DiJavascript,
         title: "JavaScrip库",
         about:
-            "熟练 <b>Redux</b>、<b>Axios</b>",
+            "熟练 <b>Recoil</b>、<b>Axios</b>",
     },
     {
         Icon: IoPhonePortraitOutline,
@@ -35,13 +35,13 @@ export const services: Service[] = [
         Icon: SiAdobecreativecloud,
         title: "Ui/Ux",
         about:
-            "熟练 <b>Ai</b> 和 <b>Ps</b> ",
+            "熟练 <b>Ai</b> 、 <b>Ps</b> 和 <b>Figma</b>",
     },
     {
         Icon: SiMongodb,
-        title: "在学习",
+        title: "学习中",
         about:
-            "<b>Node Api</b>、<b>Figma</b>、<b>MERN栈</b>",
+            "<b>Node</b>、<b>MERN</b>",
     },
 
 ];
@@ -97,7 +97,7 @@ export const tools: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "After Effects",
+        name: "Figma",
         level: "70",
     },
 ];
@@ -146,7 +146,7 @@ export const projects: Project[] = [
 
     {
         id:4,
-        name: "Realtime Chat App",
+        name: "实时聊天",
         image_path: "/images/chatapp.jpg",
         deployed_url: "https://sumit-chat.netlify.app/",
         github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
@@ -158,7 +158,7 @@ export const projects: Project[] = [
 
     {
         id:5,
-        name: "Tweeter Clone",
+        name: "视频播放",
         image_path: "/images/tweetme.jpg",
         deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
         github_url: "https://github.com/Dey-Sumit/tweetme",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
 
     {
         id:6,
-        name: "Color Classification using tf.js",
+        name: "区块链支付",
         image_path: "/images/color.jpg",
         deployed_url: "!#",
         github_url: "https://github.com/Dey-Sumit/color-classification",
@@ -181,7 +181,7 @@ export const projects: Project[] = [
     },
     {
         id:7,
-        name: "YouTube using YouTube ",
+        name: "商城",
         image_path: "/images/youtubeClone.png",
         deployed_url: "https://not-utube.web.app/",
         github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
@@ -199,7 +199,7 @@ export const projects: Project[] = [
     },
     {
         id:8,
-        name: "Football App",
+        name: "企业网站",
         image_path: "/images/football.png",
         deployed_url: "https://o-my-goal.web.app/",
         github_url: "https://github.com/Dey-Sumit/football-app",

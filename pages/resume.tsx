@@ -26,7 +26,7 @@ const resume = () => {
                     <div >
                         <h5 className='my-2 font-semibold'>专业：动漫游戏设计</h5>
                         <p className='font-semibold'>学校：江西新华电脑学院(2017-2020)</p>
-                        <p className='my-3'>工作经历：由平面设计转Ui设计</p>
+                        <p className='my-3'>工作经历：半年平面设计, 一年多php开发和前端开发</p>
                     </div>
                 </motion.div>
                 <motion.div variants={fadeInUp} initial='initial' animate='animate'>
