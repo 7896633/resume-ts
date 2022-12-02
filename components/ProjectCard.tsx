@@ -1,5 +1,5 @@
 import { FunctionComponent, useState } from "react";
-import { AiFillGithub, AiFillProject } from "react-icons/ai";
+import {  AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { Project } from "../type";
 import {motion} from 'framer-motion'
@@ -17,7 +17,6 @@ const ProjectCard: FunctionComponent<{
               category,
               deployed_url,
               description,
-              github_url,
               key_techs,
               id
           },
@@ -64,17 +63,12 @@ const ProjectCard: FunctionComponent<{
                         <motion.div
                             variants={fadeInUp}
                             className="flex justify-center my-4 space-x-3">
-                            <a
-                                href={github_url}
-                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                            >
-                                <AiFillGithub /> <span>Github</span>
-                            </a>
+
                             <a
                                 href={deployed_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
-                                <AiFillProject /> <span>Project</span>
+                                <AiFillProject /> <span>查看项目</span>
                             </a>
                         </motion.div>
                     </motion.div>

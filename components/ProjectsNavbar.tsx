@@ -24,7 +24,7 @@ const ProjectsNavbar: FunctionComponent<{
         <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
             <NavItem value="全部" {...props} />
             <NavItem value="react" {...props} />
-            <NavItem value="react native" {...props} />
+            <NavItem value="next.js" {...props} />
             <NavItem value="solidity" {...props} />
         </div>
     );
