@@ -21,4 +21,4 @@ export interface Project {
     key_techs: string[];
 }
 
-export type Category = "react" | "next.js" | "solidity" ;
+export type Category = "react" | "next.js" | "node.js" ;

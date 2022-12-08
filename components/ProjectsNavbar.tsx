@@ -8,7 +8,6 @@ export const NavItem: FunctionComponent<{
 }> = ({ value, handlerFilterCategory, active }) => {
     let className = "capitalize cursor-pointer hover:text-green";
     if (active === value) className += " text-green";
-
     return (
         <li className={className} onClick={() => handlerFilterCategory(value)}>
             {value}
@@ -16,8 +15,8 @@ export const NavItem: FunctionComponent<{
     );
 };
 
-const ProjectsNavbar: FunctionComponent<{
-    handlerFilterCategory: Function;
+const ProjectsNavbar: FunctionComponent<{    handlerFilterCategory: Function;
+
     active: string;
 }> = (props) => {
     return (
@@ -25,7 +24,7 @@ const ProjectsNavbar: FunctionComponent<{
             <NavItem value="全部" {...props} />
             <NavItem value="react" {...props} />
             <NavItem value="next.js" {...props} />
-            <NavItem value="solidity" {...props} />
+            <NavItem value="node.js" {...props} />
         </div>
     );
 };

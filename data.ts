@@ -1,8 +1,8 @@
 import { RiComputerLine } from "react-icons/ri";
-import { DiJavascript } from "react-icons/di";
-import { SiSolidity,SiAdobecreativecloud,SiMongodb } from "react-icons/si";
+import { DiJavascript,DiNodejsSmall } from "react-icons/di";
+import { SiAdobecreativecloud,SiMongodb } from "react-icons/si";
 import { IoPhonePortraitOutline } from "react-icons/io5";
-
+import { TbBrandNextjs } from "react-icons/tb";
 // @ts-ignore
 import { Service,Skill,Project } from "./type";
 import { BsCircleFill } from "react-icons/bs";
@@ -10,61 +10,60 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
     {
         Icon: RiComputerLine,
-        title: "前端开发",
+        title: "前端基础",
         about:
-            "掌握基础：<b>HTML</b>、<b>CSS</b> 和<b>JavaScrip</b> ",
+            "熟练 <b>HTML</b>、<b>CSS</b>、<b>JavaScrip</b> ",
+    },
+    {
+        Icon: TbBrandNextjs,
+        title: "前端框架",
+        about: "熟练 <b>Tailwind css</b>、<b>Next.js</b>",
     },
     {
         Icon: DiJavascript,
         title: "JavaScrip库",
         about:
-            "熟练 <b>Recoil</b>、<b>Axios</b>",
+            "熟练 <b>Recoil</b>、<b>Axios</b>、<b>React</b>",
     },
     {
-        Icon: IoPhonePortraitOutline,
-        title: "App开发",
+        Icon: DiNodejsSmall,
+        title: "后端开发",
         about:
-            "了解 <b>React Native</b> 和 <b>小程序</b> ",
-    },
-    {
-        Icon: SiSolidity,
-        title: "Web3",
-        about: "了解 <b>Solidity</b>",
+            "了解 <b>Node.js</b>、<b>Express</b>",
     },
     {
         Icon: SiAdobecreativecloud,
         title: "Ui/Ux",
         about:
-            "熟练 <b>Ai</b> 、 <b>Ps</b> 和 <b>Figma</b>",
-    },
-    {
-        Icon: SiMongodb,
-        title: "学习中",
-        about:
-            "<b>Node</b>、<b>MERN</b>",
+            "熟练 <b>Ai</b> 、 <b>Ps</b>、<b>Figma</b>",
     },
 
+    {
+        Icon: SiMongodb,
+        title: "数据库",
+        about: "了解 <b>MongoDB</b>、<b>Firebase</b>",
+    },
 ];
 
 export const languages: Skill[] = [
     {
         Icon: BsCircleFill,
-        name: "Java",
-        level: "45",
+        name: "Node.js",
+        level: "40",
     },
     {
         Icon: BsCircleFill,
-        name: "Java Script",
-        level: "60",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "React Native",
+        name: "ES6",
         level: "70",
     },
     {
         Icon: BsCircleFill,
-        name: "React",
+        name: "React.js",
+        level: "60",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "CSS3",
         level: "65",
     },
     {
@@ -83,22 +82,22 @@ export const tools: Skill[] = [
     {
         Icon: BsCircleFill,
         name: "Premiere Pro",
-        level: "70",
+        level: "75",
     },
     {
         Icon: BsCircleFill,
         name: "Photoshop",
-        level: "80",
+        level: "85",
     },
     {
         Icon: BsCircleFill,
         name: "Illustrator",
-        level: "60",
+        level: "55",
     },
     {
         Icon: BsCircleFill,
         name: "Figma",
-        level: "70",
+        level: "65",
     },
 ];
 export const projects: Project[] = [
@@ -129,7 +128,7 @@ export const projects: Project[] = [
         deployed_url: "https://music-7896633.vercel.app/",
         category: [ "next.js"],
         description:
-            "音乐查找与播放播放功能",
+            "音乐查找与播放功能",
         key_techs: [
             "Next js", "Next auth","tailwindcss","spotify"
         ],
@@ -137,7 +136,7 @@ export const projects: Project[] = [
 
     {
         id:4,
-        name: "实时聊天",
+        name: "房产系统",
         image_path: "/images/chatapp.jpg",
         deployed_url: "https://sumit-chat.netlify.app/",
         category: [ "react"],
@@ -149,29 +148,29 @@ export const projects: Project[] = [
     {
         id:5,
         name: "视频播放",
-        image_path: "/images/tweetme.jpg",
-        deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
+        image_path: "/images/Snipaste_2022-12-03_07-59-44.png",
+        deployed_url: "https://video-7896633.vercel.app/",
         category: [ "next.js"],
         description:
-            "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-        key_techs: ["React", "Django", "Django REST API"],
+            "实现注册登录和收藏功能",
+        key_techs: ["React", "firebase","tailwindcss"],
     },
 
     {
         id:6,
-        name: "区块链支付",
+        name: "MERN",
         image_path: "/images/color.jpg",
         deployed_url: "!#",
-        category: ["solidity"],
+        category: ["node.js"],
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+        key_techs: ["Express", "MongoDB", "Node","react"],
     },
     {
         id:7,
         name: "商城",
-        image_path: "/images/youtubeClone.png",
-        deployed_url: "https://not-utube.web.app/",
+        image_path: "/images/Snipaste_2022-12-03_08-01-26.png",
+        deployed_url: "https://shop-7896633.vercel.app/",
         category: ["react"],
         description:
             '实现商品展示和购物车功能',

@@ -21,7 +21,7 @@ const Home= ({endpoint}:any) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <p className='my-3 font-medium'>
-            拥有一年以上前端开发经验,正在完善前端基础和提升能力
+            毕业于2020年,对ui/ux相对感兴趣
         </p>
         <div className='p-4 mt-5 bg-gray-400 -ml-6 -mr-6 flex-grow dark:bg-dark-100'>
             <h6 className='my-3 text-xl font-bold tracking-wide '>我能够</h6>
