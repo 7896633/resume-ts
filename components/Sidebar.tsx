@@ -2,8 +2,6 @@ import React from 'react';
 import Image from "next/image";
 import { FaReact } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
-import { FaWeixin } from "react-icons/fa";
-import { SiTencentqq } from "react-icons/si";
 import { GiPositionMarker } from "react-icons/gi";
 import {useTheme} from "next-themes"
 
@@ -29,7 +27,8 @@ const Sidebar = () => {
                 <FaReact/>前端开发工程师
             </p>
 
-            <a href='/images/blink.jpg' download='blink.jpg' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'>
+            <a href='/images/blink.jpg' download='blink.jpg'
+               className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'>
                 <FiUser/>个人简历
             </a>
             <div className='-ml-4 -mr-4 py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500'>
@@ -41,8 +40,16 @@ const Sidebar = () => {
                 <p>手机号：18146626629</p>
             </div>
 
-            <button onClick={()=>window.open('mailto:2829115644@qq.com')} className='lc bg-gradient-to-r from-blue-400 to-green-400 w-8/12 rounded-full py-2 px-5 text-white my-2 py-2'>我的邮箱</button>
-            <button onClick={changeTheme} className='lc bg-gradient-to-r from-blue-400 to-green-400 w-8/12 rounded-full py-2 px-5 text-white my-4 py-2'>主题切换</button>
+            <button
+                onClick={()=>window.open('mailto:2829115644@qq.com')}
+                className='lc bg-gradient-to-r from-blue-400 to-green-400 w-8/12 rounded-full py-2 px-5 text-white my-2 py-2'>
+                我的邮箱
+            </button>
+            <button
+                onClick={changeTheme}
+                className='lc bg-gradient-to-r from-blue-400 to-green-400 w-8/12 rounded-full py-2 px-5 text-white my-4 py-2'>
+                主题切换
+            </button>
         </>
     );
 };

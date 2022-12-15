@@ -11,9 +11,10 @@ const Home= ({endpoint}:any) => {
     console.log(endpoint)
   return (
     <motion.div
-        animate='animate'
-        initial='initial'
+
         variants={routeAnimation}
+        initial='initial'
+        animate='animate'
         exit='exit'
         className='flex flex-col px-6 pt-1 flex-grow'>
       <Head>

@@ -1,7 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { DiJavascript,DiNodejsSmall } from "react-icons/di";
 import { SiAdobecreativecloud,SiMongodb } from "react-icons/si";
-import { IoPhonePortraitOutline } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 // @ts-ignore
 import { Service,Skill,Project } from "./type";
@@ -103,15 +102,36 @@ export const tools: Skill[] = [
 export const projects: Project[] = [
     {
         id:1,
-        name: "评论功能",
-        description: "实现评论功能:删除和点赞功能",
-        image_path: "/images/Snipaste_2022-11-28_08-01-04.png",
-        deployed_url: "https://comment-7896633.vercel.app",
-        category: ["next.js"],
-        key_techs: ["firebase", "Next js", "Next auth","tailwindcss"],
+        name: "企业网站",
+        image_path: "/images/football.png",
+        deployed_url: "https://o-my-goal.web.app/",
+        category: ["react"],
+        description:
+            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
     },
     {
         id:2,
+        name: "房产系统",
+        image_path: "/images/Snipaste_2022-12-09_15-40-48.png",
+        deployed_url: "https://house-7896633.vercel.app/",
+        category: [ "react"],
+        description:
+            "忘记密码，资料编辑，列表创建，轮播图展示",
+        key_techs: ["React", "tailwindcss","firebase"],
+    },
+    {
+        id:3,
+        name: "MERN",
+        image_path: "/images/color.jpg",
+        deployed_url: "!#",
+        category: ["node.js"],
+        description:
+            "实时通讯",
+        key_techs: ["Express", "MongoDB", "Node","react"],
+    },
+    {
+        id:4,
         name: "文章发布",
         image_path: "/images/Snipaste_2022-11-28_08-10-08.png",
         deployed_url: "https://issue-7896633.vercel.app/",
@@ -120,31 +140,6 @@ export const projects: Project[] = [
             "实现文章发布功能:发布和查看功能",
         key_techs: ["firebase", "Next js","tailwindcss"],
     },
-
-    {
-        id:3,
-        name: "音乐播放",
-        image_path: "/images/Snipaste_2022-12-02_09-57-12.png",
-        deployed_url: "https://music-7896633.vercel.app/",
-        category: [ "next.js"],
-        description:
-            "音乐查找与播放功能",
-        key_techs: [
-            "Next js", "Next auth","tailwindcss","spotify"
-        ],
-    },
-
-    {
-        id:4,
-        name: "房产系统",
-        image_path: "/images/chatapp.jpg",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        category: [ "react"],
-        description:
-            "Basic Realtime Chat App where one can create a room can talk to each other",
-        key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-    },
-
     {
         id:5,
         name: "视频播放",
@@ -155,16 +150,17 @@ export const projects: Project[] = [
             "实现注册登录和收藏功能",
         key_techs: ["React", "firebase","tailwindcss"],
     },
-
     {
         id:6,
-        name: "MERN",
-        image_path: "/images/color.jpg",
-        deployed_url: "!#",
-        category: ["node.js"],
+        name: "音乐播放",
+        image_path: "/images/Snipaste_2022-12-02_09-57-12.png",
+        deployed_url: "https://music-7896633.vercel.app/",
+        category: [ "next.js"],
         description:
-            "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        key_techs: ["Express", "MongoDB", "Node","react"],
+            "音乐查找与播放功能",
+        key_techs: [
+            "Next js", "Next auth","tailwindcss","spotify"
+        ],
     },
     {
         id:7,
@@ -178,14 +174,14 @@ export const projects: Project[] = [
             "React", "Redux",
         ],
     },
+
     {
         id:8,
-        name: "企业网站",
-        image_path: "/images/football.png",
-        deployed_url: "https://o-my-goal.web.app/",
-        category: ["react"],
-        description:
-            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        name: "评论功能",
+        description: "实现评论功能:删除和点赞功能",
+        image_path: "/images/Snipaste_2022-11-28_08-01-04.png",
+        deployed_url: "https://comment-7896633.vercel.app",
+        category: ["next.js"],
+        key_techs: ["firebase", "Next js", "Next auth","tailwindcss"],
     },
 ];

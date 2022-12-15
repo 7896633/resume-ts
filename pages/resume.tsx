@@ -26,15 +26,15 @@ const resume = () => {
                     <div >
                         <h5 className='my-2 font-semibold'>专业：平面设计</h5>
                         <p className='font-semibold'>学校：江西新华电脑学院(2017-2020)</p>
-                        <p className='my-3'>学习经历：难以启齿...</p>
+                        <p className='my-3'>学习经历：我在学什么？</p>
                     </div>
                 </motion.div>
                 <motion.div variants={fadeInUp} initial='initial' animate='animate'>
                     <h5 className='my-3 text-xl font-bold'>工作经验：</h5>
                     <div >
                         <h5 className='my-2 font-semibold'>岗位：前端开发工程师</h5>
-                        <p className='font-semibold'>公司：东莞斯达文星(2021-至今)</p>
-                        <p className='my-3'>工作经历：半年平面设计, 一年多前端开发,做过网管对电脑结构有所了解</p>
+                        <p className='font-semibold'>公司：我在哪？</p>
+                        <p className='my-3'>工作经历：我在做什么？</p>
                     </div>
                 </motion.div>
             </div>
